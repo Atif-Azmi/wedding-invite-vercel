@@ -9,8 +9,8 @@ export function Countdown() {
   });
 
   useEffect(() => {
-    // April 29, 2026, roughly at noon
-    const targetDate = new Date('2026-04-29T12:00:00');
+    // April 30, 2026, roughly at 8 PM
+    const targetDate = new Date('2026-04-30T20:00:00');
 
     const interval = setInterval(() => {
       const now = new Date();
